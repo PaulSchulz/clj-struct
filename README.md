@@ -1,8 +1,8 @@
 # clj-struct
 
-This is almost Python's struct module in Clojure. You can easily converse between Clojure value and bytes stream which come from file, network ...etc.
-
-fix it
+This is almost Python's struct module in Clojure. You can easily
+converse between Clojure value and bytes stream which come from file,
+network ...etc.
 
 # How to use it 
 
@@ -45,7 +45,7 @@ means Float type with little-endian order. The Byte Order is optional, default i
 
 There are three options:
 | Character | Endian                 |
-|:---------:|------------------------|
+|:---------:| ---------------------- |
 | <         | little-endian          |
 | >         | big-endian             |
 | !         | network (= big-endian) |
@@ -57,7 +57,7 @@ remember whether network byte order is big-endian or little-endian.
 
 After Order type is one or many Data Type. Available  Data types are:
 | Character | Data type        | Size | Clojure Type |
-|:---------:|------------------|:----:|--------------| 
+|:---------:| ---------------- |:----:| ------------ | 
 | c         | char             | 1    | Character    |
 | b         | signed char      | 1    | Intger       |
 | B         | unsigned char    | 1    | Integer      |
