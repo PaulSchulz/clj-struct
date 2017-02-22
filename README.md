@@ -44,6 +44,7 @@ The first character of format can be use to specify the byte order, little-endia
 means Float type with little-endian order. The Byte Order is optional, default is big-endian.
 
 There are three options:
+
 | Character | Endian                 |
 |:---------:| ---------------------- |
 | <         | little-endian          |
@@ -56,6 +57,7 @@ remember whether network byte order is big-endian or little-endian.
 ## Data type
 
 After Order type is one or many Data Type. Available  Data types are:
+
 | Character | Data type        | Size | Clojure Type |
 |:---------:| ---------------- |:----:| ------------ | 
 | c         | char             | 1    | Character    |
