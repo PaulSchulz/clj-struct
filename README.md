@@ -51,6 +51,22 @@ There are three options:
 ## Data type
 
 After Order type is one or many Data Type. Available  Data type are:
+| Character | Name             | Size | Clojure Type |
+|-----------|------------------|------|--------------| 
+| c         | char             | 1    | Character    |
+| b         | signed char      | 1    | Intger       |
+| B         | unsigned char    | 1    | Integer      |
+| ?         | boolean          | 1    | Boolean      |
+| h         | short            | 2    | Integer      |
+| H         | unsigned short   | 2    | Integer      |
+| i         | integer          | 4    | Long         |
+| I         | unsigned integer | 4    | Long         |
+| l         | long             | 8    | BigInt       |
+| L         | unsigned long    | 8    | BigInt       |
+| f         | float            | 4    | Float        |
+| d         | double           | 8    | Double       |
+
+After Order type is one or many Data Type. Available  Data type are:
 * c : character, byte size is 1, corresponding Clojure type is Character
 * b : signed char, byte size is 1, corresponding Clojure type is Integer
 * B : unsigned character, size is 1, corresponding Clojure type is Integer
